@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      style="display: flex; flex-direction: column"
+      action="/v1/api"
+      method="post"
+      id="form"
+    >
+      <label for="name">name</label>
+      <input id="name" name="username" type="text" />
+      <br />
+      <button type="submit">submit</button>
+    </form>
+    <img src="/public/image.png" />
+  </body>
+  <script defer>
+    document
+      .getElementById("form")
+      .addEventListener("submit", (e) => e.preventDefault());
+  </script>
+</html>

@@ -1,0 +1,17 @@
+body {
+  background: black;
+}
+
+label {
+  color: white;
+}
+
+form {
+  max-width: 50%;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 32px;
+}
