@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node main.js"
+    "dev": "node init && node main.js"
   },
   "author": "",
   "license": "ISC",
